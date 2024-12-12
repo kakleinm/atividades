@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url(https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.jumbotron button {
+    background-color: rgb(224, 222, 222);
+}
