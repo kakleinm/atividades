@@ -1,9 +1,24 @@
 .jumbotron {
-    background-image: url(https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg);
+    background-image: url(../img/vitrine.jpg);
     background-size: cover;
-    background-position: center
+    background-position: center center;
 }
-
-.jumbotron button {
-    background-color: rgb(224, 222, 222);
+ 
+.hall .row {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.hall img{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.media img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
 }
